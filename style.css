@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cecece;
+    margin: auto;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    position: relative;
+}
+
+.container > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
